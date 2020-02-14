@@ -1,0 +1,175 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5E45E87A
+P 5950 3550
+F 0 "R1" V 5743 3550 50  0000 C CNN
+F 1 "33K" V 5834 3550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 5880 3550 50  0001 C CNN
+F 3 "~" H 5950 3550 50  0001 C CNN
+	1    5950 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:DIODE D1
+U 1 1 5E460049
+P 4750 3550
+F 0 "D1" H 4750 3815 50  0000 C CNN
+F 1 "IN4007" H 4750 3724 50  0000 C CNN
+F 2 "Diode_THT:D_5W_P10.16mm_Horizontal" H 4750 3550 50  0001 C CNN
+F 3 "~" H 4750 3550 50  0001 C CNN
+	1    4750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5E460427
+P 5400 4450
+F 0 "C1" H 5518 4496 50  0000 L CNN
+F 1 "10uF" H 5518 4405 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P3.50mm" H 5438 4300 50  0001 C CNN
+F 3 "~" H 5400 4450 50  0001 C CNN
+	1    5400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Buzzer BZ1
+U 1 1 5E460C63
+P 6900 2500
+F 0 "BZ1" H 7052 2529 50  0000 L CNN
+F 1 "Buzzer" H 7052 2438 50  0000 L CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 6875 2600 50  0001 C CNN
+F 3 "~" V 6875 2600 50  0001 C CNN
+	1    6900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q1
+U 1 1 5E4614E2
+P 6700 3550
+F 0 "Q1" H 6890 3596 50  0000 L CNN
+F 1 "2N2219" H 6890 3505 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 6900 3475 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 6700 3550 50  0001 L CNN
+	1    6700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5E461F8D
+P 3350 3550
+F 0 "J1" H 3458 3831 50  0000 C CNN
+F 1 "DC" H 3458 3740 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 3350 3550 50  0001 C CNN
+F 3 "~" H 3350 3550 50  0001 C CNN
+	1    3350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM RV1
+U 1 1 5E46303D
+P 4150 4100
+F 0 "RV1" H 4080 4146 50  0000 R CNN
+F 1 "5K" H 4080 4055 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal" H 4150 4100 50  0001 C CNN
+F 3 "~" H 4150 4100 50  0001 C CNN
+	1    4150 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2600 6800 3350
+Wire Wire Line
+	6100 3550 6500 3550
+Wire Wire Line
+	4950 3550 5400 3550
+Wire Wire Line
+	5400 4300 5400 3550
+Connection ~ 5400 3550
+Wire Wire Line
+	5400 3550 5800 3550
+Wire Wire Line
+	4150 4250 4150 5050
+Wire Wire Line
+	4150 5050 4850 5050
+Wire Wire Line
+	5400 5050 5400 4600
+Wire Wire Line
+	5400 5050 6800 5050
+Wire Wire Line
+	6800 5050 6800 3750
+Connection ~ 5400 5050
+Wire Wire Line
+	4300 4100 4850 4100
+Wire Wire Line
+	4850 4100 4850 5050
+Connection ~ 4850 5050
+Wire Wire Line
+	4850 5050 5400 5050
+Wire Wire Line
+	4150 3950 4150 3550
+Wire Wire Line
+	4150 3550 4550 3550
+Wire Wire Line
+	4150 2400 6800 2400
+Connection ~ 4150 3550
+Wire Wire Line
+	3550 3450 3550 2400
+Wire Wire Line
+	3550 2400 4150 2400
+Connection ~ 4150 2400
+Wire Wire Line
+	3550 3550 3750 3550
+Wire Wire Line
+	3750 3550 3750 5050
+Wire Wire Line
+	3750 5050 4150 5050
+Connection ~ 4150 5050
+Wire Wire Line
+	4150 2400 4150 3550
+$Comp
+L power:GND #PWR0101
+U 1 1 5E4763FC
+P 3200 3750
+F 0 "#PWR0101" H 3200 3500 50  0001 C CNN
+F 1 "GND" H 3205 3577 50  0000 C CNN
+F 2 "" H 3200 3750 50  0001 C CNN
+F 3 "" H 3200 3750 50  0001 C CNN
+	1    3200 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3550 3200 3750
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5E477032
+P 3200 3250
+F 0 "#PWR0102" H 3200 3100 50  0001 C CNN
+F 1 "+3.3V" H 3215 3423 50  0000 C CNN
+F 2 "" H 3200 3250 50  0001 C CNN
+F 3 "" H 3200 3250 50  0001 C CNN
+	1    3200 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3450 3200 3250
+Wire Wire Line
+	3200 3450 3550 3450
+Connection ~ 3550 3450
+Wire Wire Line
+	3200 3550 3550 3550
+Connection ~ 3550 3550
+$EndSCHEMATC

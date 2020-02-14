@@ -1,0 +1,123 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U1
+U 1 1 5E44C93B
+P 3000 2750
+F 0 "U1" H 2950 1161 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 2950 1070 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2400 1350 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 3000 2750 50  0001 C CNN
+	1    3000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5E44DF2D
+P 4750 2500
+F 0 "D1" H 4743 2245 50  0000 C CNN
+F 1 "LED" H 4743 2336 50  0000 C CNN
+F 2 "LED_SMD:LED-APA102-2020" H 4750 2500 50  0001 C CNN
+F 3 "~" H 4750 2500 50  0001 C CNN
+	1    4750 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5E44EFAE
+P 5500 3150
+F 0 "#PWR02" H 5500 2900 50  0001 C CNN
+F 1 "GND" H 5505 2977 50  0000 C CNN
+F 2 "" H 5500 3150 50  0001 C CNN
+F 3 "" H 5500 3150 50  0001 C CNN
+	1    5500 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2500 5500 2900
+Wire Wire Line
+	4900 2500 5500 2500
+$Comp
+L Device:R R1
+U 1 1 5E451585
+P 4150 2500
+F 0 "R1" V 3943 2500 50  0000 C CNN
+F 1 "10K" V 4034 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 4080 2500 50  0001 C CNN
+F 3 "~" H 4150 2500 50  0001 C CNN
+	1    4150 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 2550 4000 2550
+Wire Wire Line
+	4000 2550 4000 2500
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5E454848
+P 4250 2900
+F 0 "SW1" H 4250 3185 50  0000 C CNN
+F 1 "SW_Push" H 4250 3094 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_CW_GPTS203211B" H 4250 3100 50  0001 C CNN
+F 3 "~" H 4250 3100 50  0001 C CNN
+	1    4250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E455150
+P 4250 3100
+F 0 "R2" V 4043 3100 50  0000 C CNN
+F 1 "10K" V 4134 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 4180 3100 50  0001 C CNN
+F 3 "~" H 4250 3100 50  0001 C CNN
+	1    4250 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5E455B59
+P 4600 2750
+F 0 "#PWR01" H 4600 2600 50  0001 C CNN
+F 1 "+3.3V" H 4615 2923 50  0000 C CNN
+F 2 "" H 4600 2750 50  0001 C CNN
+F 3 "" H 4600 2750 50  0001 C CNN
+	1    4600 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2900 5500 2900
+Connection ~ 5500 2900
+Wire Wire Line
+	5500 2900 5500 3150
+Wire Wire Line
+	4400 3100 4600 3100
+Wire Wire Line
+	4050 2900 4050 2650
+Wire Wire Line
+	3600 2650 3900 2650
+Wire Wire Line
+	4100 3100 3900 3100
+Wire Wire Line
+	3900 3100 3900 2650
+Connection ~ 3900 2650
+Wire Wire Line
+	3900 2650 4050 2650
+Wire Wire Line
+	4300 2500 4600 2500
+Wire Wire Line
+	4600 3100 4600 2750
+$EndSCHEMATC
