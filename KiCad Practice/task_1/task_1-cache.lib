@@ -117,6 +117,23 @@ X OUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# Switch_SW_Push
+#
+DEF Switch_SW_Push SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Transistor_BJT_2N3904
 #
 DEF Transistor_BJT_2N3904 Q 0 0 Y N 1 F N
@@ -136,6 +153,36 @@ P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
 X E 1 100 -200 100 U 50 50 1 1 P
 X B 2 -200 0 225 R 50 50 1 1 P
 X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Battery-Holders-Clips-Contacts_BS-7
+#
+DEF dk_Battery-Holders-Clips-Contacts_BS-7 BAT 0 40 N Y 1 F N
+F0 "BAT" -50 150 60 H V R CNN
+F1 "dk_Battery-Holders-Clips-Contacts_BS-7" -50 -150 60 H V R CNN
+F2 "digikey-footprints:Battery_Holder_Coin_2032_BS-7" 200 200 60 H I L CNN
+F3 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" 200 300 60 V I L CNN
+F4 "BS-7-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BS-7" 200 500 60 H I L CNN "MPN"
+F6 "Battery Products" 200 600 60 H I L CNN "Category"
+F7 "Battery Holders, Clips, Contacts" 200 700 60 H I L CNN "Family"
+F8 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "BATTERY HOLDER COIN 20MM PC PIN" 200 1000 60 H I L CNN "Description"
+F11 "MPD (Memory Protection Devices)" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 1 1 0 0 -100 0 -75 N
+P 2 1 1 0 0 75 0 100 N
+P 2 1 1 0 50 -75 -50 -75 N
+P 2 1 1 0 50 25 -50 25 N
+P 2 1 1 0 50 90 50 130 N
+P 2 1 1 0 70 110 30 110 N
+P 2 1 1 0 100 -25 -100 -25 N
+P 2 1 1 0 100 75 -100 75 N
+X ~ Neg 0 -200 100 U 50 50 1 1 w
+X ~ Pos 0 200 100 D 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
