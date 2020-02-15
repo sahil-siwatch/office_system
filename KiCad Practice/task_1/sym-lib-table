@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name task_1-rescue)(type Legacy)(uri ${KIPRJMOD}/task_1-rescue.lib)(options "")(descr ""))
+  (lib (name comps)(type Legacy)(uri ${KIPRJMOD}/comps.lib)(options "")(descr ""))
+)
