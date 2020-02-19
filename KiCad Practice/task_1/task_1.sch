@@ -1201,4 +1201,12 @@ Wire Wire Line
 Connection ~ 2500 700 
 Wire Wire Line
 	2500 700  2500 850 
+Text Label 3400 6850 2    50   ~ 0
+OD
+Wire Wire Line
+	3450 6850 3400 6850
+Text Label 1400 7100 2    50   ~ 0
+OD
+Wire Wire Line
+	1500 7100 1400 7100
 $EndSCHEMATC
