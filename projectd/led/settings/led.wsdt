@@ -29,7 +29,7 @@
       </Debug-Log>
     </Static>
     <Windows>
-      <Wnd2>
+      <Wnd0>
         <Tabs>
           <Tab>
             <Identity>TabID-30884-29942</Identity>
@@ -45,8 +45,8 @@
           </Tab>
         </Tabs>
         <SelectedTab>0</SelectedTab>
-      </Wnd2>
-      <Wnd3>
+      </Wnd0>
+      <Wnd1>
         <Tabs>
           <Tab>
             <Identity>TabID-8864-29946</Identity>
@@ -62,7 +62,7 @@
           </Tab>
         </Tabs>
         <SelectedTab>0</SelectedTab>
-      </Wnd3>
+      </Wnd1>
     </Windows>
     <Editor>
       <Pane>
@@ -79,8 +79,8 @@
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
           <YPos2>0</YPos2>
-          <SelStart2>44</SelStart2>
-          <SelEnd2>44</SelEnd2>
+          <SelStart2>346</SelStart2>
+          <SelEnd2>346</SelEnd2>
         </Tab>
         <ActiveTab>1</ActiveTab>
       </Pane>
@@ -112,7 +112,7 @@
       <Left>
         <Row0>
           <Sizes>
-            <Wnd3>
+            <Wnd1>
               <Rect>
                 <Top>-2</Top>
                 <Left>-2</Left>
@@ -127,7 +127,7 @@
                 <sizeVertCX>104167</sizeVertCX>
                 <sizeVertCY>758275</sizeVertCY>
               </Rect>
-            </Wnd3>
+            </Wnd1>
           </Sizes>
         </Row0>
       </Left>
@@ -139,7 +139,7 @@
       <Bottom>
         <Row0>
           <Sizes>
-            <Wnd2>
+            <Wnd0>
               <Rect>
                 <Top>-2</Top>
                 <Left>-2</Left>
@@ -154,7 +154,7 @@
                 <sizeVertCX>104167</sizeVertCX>
                 <sizeVertCY>200602</sizeVertCY>
               </Rect>
-            </Wnd2>
+            </Wnd0>
           </Sizes>
         </Row0>
       </Bottom>

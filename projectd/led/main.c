@@ -21,9 +21,9 @@ int main( void )
   while(1)
   {
     PE_ODR_bit.ODR7 = 1;
-    Delay(100000);
+    Delay(200000);
     PE_ODR_bit.ODR7 = 0;
-    Delay(100000);
+    Delay(200000);
   }
  
 }

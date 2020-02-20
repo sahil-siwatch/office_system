@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V2.20.1.176 for STM8                     20/Feb/2020  18:01:33
+# IAR ELF Linker V2.20.1.176 for STM8                     20/Feb/2020  18:05:29
 # Copyright 2010-2015 IAR Systems AB.
 #
 #    Output file  =  
@@ -80,21 +80,21 @@ Absolute sections, part 2 of 2:         0x3
     .intvec        const    0x008000   0x80  interrupt.o [4]
                           - 0x008080   0x80
 
-"P3":                                  0xc7
-  .near_func.text  ro code  0x008080   0x32  main.o [1]
-  .near_func.text  ro code  0x0080b2   0x19  long.o [4]
-  .near_func.text  ro code  0x0080cb   0x18  vreg_util.o [4]
-  .near_func.text  ro code  0x0080e3   0x17  init.o [4]
-  .near_func.text  ro code  0x0080fa   0x14  main.o [1]
-  .near_func.text  ro code  0x00810e   0x14  __dbg_xxexit.o [3]
-  .near_func.text  ro code  0x008122   0x13  cstartup.o [4]
-  .near_func.text  ro code  0x008135    0x5  cexit.o [4]
-  .near_func.text  ro code  0x00813a    0x3  interrupt.o [4]
-  .near_func.text  ro code  0x00813d    0x3  low_level_init.o [4]
-  .near_func.text  ro code  0x008140    0x3  exit.o [4]
-  .near_func.text  ro code  0x008143    0x3  unhandled_exception.o [4]
-  .near_func.text  ro code  0x008146    0x1  __dbg_break.o [3]
-                          - 0x008147   0xc7
+"P3":                                  0xc9
+  .near_func.text  ro code  0x008080   0x34  main.o [1]
+  .near_func.text  ro code  0x0080b4   0x19  long.o [4]
+  .near_func.text  ro code  0x0080cd   0x18  vreg_util.o [4]
+  .near_func.text  ro code  0x0080e5   0x17  init.o [4]
+  .near_func.text  ro code  0x0080fc   0x14  main.o [1]
+  .near_func.text  ro code  0x008110   0x14  __dbg_xxexit.o [3]
+  .near_func.text  ro code  0x008124   0x13  cstartup.o [4]
+  .near_func.text  ro code  0x008137    0x5  cexit.o [4]
+  .near_func.text  ro code  0x00813c    0x3  interrupt.o [4]
+  .near_func.text  ro code  0x00813f    0x3  low_level_init.o [4]
+  .near_func.text  ro code  0x008142    0x3  exit.o [4]
+  .near_func.text  ro code  0x008145    0x3  unhandled_exception.o [4]
+  .near_func.text  ro code  0x008148    0x1  __dbg_break.o [3]
+                          - 0x008149   0xc9
 
 
 
@@ -106,9 +106,9 @@ Absolute sections, part 2 of 2:         0x3
                                                        (abs)
     ------                 -------  -------  -------  -------
 C:\Users\Sahil Siwatch\Documents\git_personal\office_system\projectd\led\Debug\Obj: [1]
-    main.o                      70                          4
+    main.o                      72                          4
     ---------------------------------------------------------
-    Total:                      70                          4
+    Total:                      72                          4
 
 command line: [2]
     ---------------------------------------------------------
@@ -136,7 +136,7 @@ dlstm8smn.a: [4]
 
     Linker created                               256
 -------------------------------------------------------------
-    Grand Total:               199      128      268        4
+    Grand Total:               201      128      268        4
 
 
 *******************************************************************************
@@ -157,15 +157,15 @@ Entry                    Address  Size  Type      Object
 ?b7                     0x000007        Data  Gb  vregs.o [4]
 ?b8                     0x000008        Data  Gb  vregs.o [4]
 ?b9                     0x000009        Data  Gb  vregs.o [4]
-?dec32_0x_0x            0x0080b7        Code  Gb  long.o [4]
-?dec32_l0_l0            0x0080b2        Code  Gb  long.o [4]
+?dec32_0x_0x            0x0080b9        Code  Gb  long.o [4]
+?dec32_l0_l0            0x0080b4        Code  Gb  long.o [4]
 ?e0                     0x000001        Data  Gb  vregs.o [4]
 ?e1                     0x000005        Data  Gb  vregs.o [4]
 ?e2                     0x000009        Data  Gb  vregs.o [4]
 ?l0                     0x000000        Data  Gb  vregs.o [4]
 ?l1                     0x000004        Data  Gb  vregs.o [4]
 ?l2                     0x000008        Data  Gb  vregs.o [4]
-?push_w4                0x0080cb        Code  Gb  vreg_util.o [4]
+?push_w4                0x0080cd        Code  Gb  vreg_util.o [4]
 ?w0                     0x000000        Data  Gb  vregs.o [4]
 ?w1                     0x000002        Data  Gb  vregs.o [4]
 ?w2                     0x000004        Data  Gb  vregs.o [4]
@@ -174,7 +174,7 @@ Entry                    Address  Size  Type      Object
 ?w5                     0x00000a        Data  Gb  vregs.o [4]
 CSTACK$$Base            0x000700         --   Gb  - Linker created -
 CSTACK$$Limit           0x000800         --   Gb  - Linker created -
-Delay                   0x0080fa  0x14  Code  Gb  main.o [1]
+Delay                   0x0080fc  0x14  Code  Gb  main.o [1]
 INTVEC$$Base            0x008000         --   Gb  - Linker created -
 INTVEC$$Limit           0x008080         --   Gb  - Linker created -
 Region$$Table$$Base   0x00000000         --   Gb  - Linker created -
@@ -183,17 +183,17 @@ _A_PE_CR1               0x005017   0x1  Data  Gb  main.o [1]
 _A_PE_CR2               0x005018   0x1  Data  Gb  main.o [1]
 _A_PE_DDR               0x005016   0x1  Data  Gb  main.o [1]
 _A_PE_ODR               0x005014   0x1  Data  Gb  main.o [1]
-__DebugBreak            0x008146   0x1  Code  Gb  __dbg_break.o [3]
-__exit                  0x00810e  0x14  Code  Gb  __dbg_xxexit.o [3]
-__iar_data_init2        0x0080e3  0x17  Code  Gb  init.o [4]
-__iar_program_start     0x008122        Code  Gb  cstartup.o [4]
+__DebugBreak            0x008148   0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x008110  0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_data_init2        0x0080e5  0x17  Code  Gb  init.o [4]
+__iar_program_start     0x008124        Code  Gb  cstartup.o [4]
 __iar_unhandled_exception
-                        0x008143        Code  Gb  unhandled_exception.o [4]
+                        0x008145        Code  Gb  unhandled_exception.o [4]
 __intvec                0x008000        Data  Gb  interrupt.o [4]
-__low_level_init        0x00813d   0x3  Code  Gb  low_level_init.o [4]
-_exit                   0x008135        Code  Gb  cexit.o [4]
-exit                    0x008140   0x3  Code  Gb  exit.o [4]
-main                    0x008080  0x32  Code  Gb  main.o [1]
+__low_level_init        0x00813f   0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x008137        Code  Gb  cexit.o [4]
+exit                    0x008142   0x3  Code  Gb  exit.o [4]
+main                    0x008080  0x34  Code  Gb  main.o [1]
 
 
 [1] = C:\Users\Sahil Siwatch\Documents\git_personal\office_system\projectd\led\Debug\Obj
@@ -201,7 +201,7 @@ main                    0x008080  0x32  Code  Gb  main.o [1]
 [3] = dbgstm8smd.a
 [4] = dlstm8smn.a
 
-  199 bytes of readonly  code memory
+  201 bytes of readonly  code memory
   128 bytes of readonly  data memory
   268 bytes of readwrite data memory (+ 4 absolute)
 
