@@ -109,6 +109,10 @@
           <file> 6</file>
         </tool>
         <tool>
+          <name>ICCSTM8</name>
+          <file> 5</file>
+        </tool>
+        <tool>
           <name>__cstat</name>
           <file> 16</file>
         </tool>

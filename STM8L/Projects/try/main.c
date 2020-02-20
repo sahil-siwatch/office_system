@@ -28,8 +28,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm8l15x.h"
 #include "stm8l15x_gpio.h"
-//#include "iostm8l152c6.h"
-
 
 /** @addtogroup STM8L15x_StdPeriph_Examples
   * @{
@@ -43,7 +41,7 @@
 /* Private define ------------------------------------------------------------*/
 /* define the GPIO port and pins connected to Leds mounted on STM8L152X-EVAL board */
 
-#define LED_GPIO_PORT  GPIOE
+#define LED_GPIO_PORT  GPIOC
 #define LED_GPIO_PINS  GPIO_Pin_7
 
 
@@ -60,20 +58,19 @@ void Delay (uint16_t nCount);
   */
 void main(void)
 {
-  PE_ODR = 0;
-  PE_DDR_DDR7 = 1;
-  PE_CR1_C17 = 1;
-  PE_CR2_C27 = 1;
-  
-  
-  while(1)
+  /* Initialize LEDs mounted on STM8L152X-EVAL board */
+  GPIO_Init(LED_GPIO_PORT, LED_GPIO_PINS, GPIO_Mode_Out_PP_Low_Fast);
+
+  while (1)
   {
-    PE_ODR_bit.ODR7 = 1;
-    Delay(90000000);
-    PE_ODR_bit.ODR7 = 0;
-    Delay(90000000);
+    /* Toggle LEDs LD1..LD4 */
+    GPIO_WriteBit(LED_GPIO_PORT, LED_GPIO_PINS, 1);
+    Delay(10000000);
+    GPIO_WriteBit(LED_GPIO_PORT, LED_GPIO_PINS, 0);
+    Delay(10000000);
+
+    
   }
- 
 }
 
 /**
