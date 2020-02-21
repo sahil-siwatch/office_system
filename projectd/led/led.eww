@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-
+<?xml version="1.0" encoding="UTF-8"?>
 <workspace>
-  <project>
-    <path>$WS_DIR$\led.ewp</path>
-  </project>
-  <batchBuild/>
+    <project>
+        <path>$WS_DIR$\led.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\..\..\..\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\project.ewp</path>
+    </project>
+    <batchBuild />
 </workspace>
-
-

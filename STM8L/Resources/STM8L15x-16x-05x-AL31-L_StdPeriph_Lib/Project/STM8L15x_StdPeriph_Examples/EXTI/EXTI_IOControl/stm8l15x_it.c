@@ -61,7 +61,7 @@ INTERRUPT_HANDLER(NonHandledInterrupt, 0)
   */
 }
 #endif
-
+void Delay(long);
 /**
   * @brief TRAP interrupt routine
   * @param  None
@@ -178,37 +178,16 @@ INTERRUPT_HANDLER(EXTI0_IRQHandler, 8)
   */
 INTERRUPT_HANDLER(EXTI1_IRQHandler, 9)
 {
-  /* In order to detect unexpected events during development,
-     it is recommended to set a breakpoint on the following instruction.
-  */
-#ifdef USE_STM8L1526_EVAL
-  /* Check if Joystick left button is pressed */
-  if (STM_EVAL_PBGetState(BUTTON_LEFT) == RESET)
-  {
-    PressedButton = BUTTON_LEFT;
-  }
 
-  /* Check if Key button is pressed */
-  if (STM_EVAL_PBGetState(BUTTON_KEY) == RESET)
-  {
-    PressedButton = BUTTON_KEY;
-  }
+    if(GPIO_ReadInputDataBit(GPIOC, GPIO_Pin_1) == FALSE)
+    {
+      GPIO_WriteBit(GPIOE, GPIO_Pin_7, 1);
+      Delay(10000);
+      GPIO_WriteBit(LED_GPIO_PORT, LED_GPIO_PINS, 0);
+      //Delay(10000);
+    }   
+      EXTI_ClearITPendingBit(EXTI_IT_Pin1);
 
-  /* Cleat Interrupt pending bit */
-  EXTI_ClearITPendingBit(EXTI_IT_Pin1);
-
-#elif defined USE_STM8L1528_EVAL
-
-  /* Check if Joystick down button is pressed */
-  if (STM_EVAL_PBGetState(BUTTON_DOWN) == RESET)
-  {
-    PressedButton = BUTTON_DOWN;
-  }
-
-  /* Cleat Interrupt pending bit */
-  EXTI_ClearITPendingBit(EXTI_IT_Pin1);
-
-#endif /* USE_STM8L152X_EVAL */
 }
 
 /**
@@ -497,6 +476,14 @@ INTERRUPT_HANDLER(I2C1_SPI2_IRQHandler, 29)
   */
 }
 
+void Delay(long nCount)
+{
+
+  while (nCount != 0)
+  {
+    nCount--;
+  }
+}
 /**
   * @}
   */

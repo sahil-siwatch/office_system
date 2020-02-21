@@ -37,7 +37,7 @@
    application
   */
 /* #define STM8L15X_LD */     /*!< STM8L15X_LD: STM8L15x Low density devices */
-/* #define STM8L15X_MD */     /*!< STM8L15X_MD: STM8L15x Medium density devices */
+ #define STM8L15X_MD      /*!< STM8L15X_MD: STM8L15x Medium density devices */
 /* #define STM8L15X_MDP */    /*!< STM8L15X_MDP: STM8L15x Medium density plus devices */
 /* #define STM8L15X_HD */     /*!< STM8L15X_HD: STM8L15x/16x High density devices */
 /* #define STM8L05X_LD_VL */  /*!< STM8L05X_LD_VL: STM8L051xx3 Low density value line devices */

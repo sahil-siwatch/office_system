@@ -28,11 +28,12 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm8l15x_it.h"
+//////////////////#include "stm8l15x_gpio.h"
 
 /** @addtogroup STM8L15x_StdPeriph_Template
   * @{
   */
-	
+	void Delay(long);
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
@@ -168,7 +169,25 @@ INTERRUPT_HANDLER(EXTI0_IRQHandler,8)
   * @retval None
   */
 INTERRUPT_HANDLER(EXTI1_IRQHandler,9)
-{
+{    
+      GPIO_WriteBit(GPIOC, GPIO_Pin_7, 1);
+      Delay(100000);
+      GPIO_WriteBit(GPIOC, GPIO_Pin_7, 0);
+      Delay(100000);
+            GPIO_WriteBit(GPIOC, GPIO_Pin_7, 1);
+      Delay(100000);
+      GPIO_WriteBit(GPIOC, GPIO_Pin_7, 0);
+      Delay(100000);
+           GPIO_WriteBit(GPIOC, GPIO_Pin_7, 1);
+      Delay(100000);
+      GPIO_WriteBit(GPIOC, GPIO_Pin_7, 0);
+      Delay(100000);
+            GPIO_WriteBit(GPIOC, GPIO_Pin_7, 1);
+      Delay(100000);
+      GPIO_WriteBit(GPIOC, GPIO_Pin_7, 0);
+      Delay(100000);
+      EXTI_ClearITPendingBit(EXTI_IT_Pin1);
+
     /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
