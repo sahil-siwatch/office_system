@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 "C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim4.c"
+=======
+"C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim4.c"
+>>>>>>> 2cd9e854199093e3972eb0af145f5afebcddd605
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
+<<<<<<< HEAD
 C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\STM8L15X_MD(STM8L15xx4_6)\Obj\stm8l15x_tim4.pbi.dep
 -o
 stm8l15x_tim4.pbi
@@ -21,11 +26,31 @@ C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-
 C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\..\..\..\Utilities\STM8_EVAL\Common
 -I
 C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\..\..\..\Utilities\Misc
+=======
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\STM8L15X_MD(STM8L15xx4_6)\Obj\stm8l15x_tim4.pbi.dep
+-o
+stm8l15x_tim4.pbi
+-I
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Libraries\STM8L15x_StdPeriph_Driver\src
+-I
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\..
+-I
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc
+-I
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\..\..\..\Utilities\STM8_EVAL
+-I
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\..\..\..\Utilities\STM8_EVAL\STM8L1526_EVAL
+-I
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\..\..\..\Utilities\STM8_EVAL\Common
+-I
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\..\..\..\Utilities\Misc
+>>>>>>> 2cd9e854199093e3972eb0af145f5afebcddd605
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 -I
+<<<<<<< HEAD
 C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template
 -I
 C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Libraries\STM8L15x_StdPeriph_Driver\inc
@@ -37,6 +62,19 @@ C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-
 C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Utilities\STM8_EVAL\Common
 -I
 C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Utilities\Misc
+=======
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template
+-I
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Libraries\STM8L15x_StdPeriph_Driver\inc
+-I
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Utilities\STM8_EVAL
+-I
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Utilities\STM8_EVAL\STM8L1526_EVAL
+-I
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Utilities\STM8_EVAL\Common
+-I
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Utilities\Misc
+>>>>>>> 2cd9e854199093e3972eb0af145f5afebcddd605
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
