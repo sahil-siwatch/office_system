@@ -326,6 +326,12 @@ void GPIO_ResetBits(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin)
   GPIOx->ODR &= (uint8_t)(~GPIO_Pin);
 }
 
+void GPIO_WriteReverse(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin )
+{
+  GPIOx->ODR ^= (uint8_t)GPIO_Pin;
+}
+
+
 /**
   * @brief  Toggles the specified GPIO pins.
   * @note   The port must be configured in output mode.

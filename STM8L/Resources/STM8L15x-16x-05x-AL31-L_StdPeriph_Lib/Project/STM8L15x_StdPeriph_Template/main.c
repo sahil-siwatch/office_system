@@ -1,81 +1,39 @@
-/**
-  ******************************************************************************
-  * @file    Project/STM8L15x_StdPeriph_Template/main.c
-  * @author  MCD Application Team
-  * @version V1.6.1
-  * @date    30-September-2014
-  * @brief   Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * <h2><center>&copy; COPYRIGHT 2014 STMicroelectronics</center></h2>
-  *
-  * Licensed under MCD-ST Liberty SW License Agreement V2, (the "License");
-  * You may not use this file except in compliance with the License.
-  * You may obtain a copy of the License at:
-  *
-  *        http://www.st.com/software_license_agreement_liberty_v2
-  *
-  * Unless required by applicable law or agreed to in writing, software 
-  * distributed under the License is distributed on an "AS IS" BASIS, 
-  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  * See the License for the specific language governing permissions and
-  * limitations under the License.
-  *
-  ******************************************************************************
-  */
-
-/* Includes ------------------------------------------------------------------*/
 #include "stm8l15x.h"
+#include "stm8l15x_it.h"
 
-/** @addtogroup STM8L15x_StdPeriph_Template
-  * @{
-  */
+void CLK_CONFIG_16MHZ_HSI(void);
 
-/* Private typedef -----------------------------------------------------------*/
-/* Private define ------------------------------------------------------------*/
-/* Private macro -------------------------------------------------------------*/
-/* Private variables ---------------------------------------------------------*/
-/* Private function prototypes -----------------------------------------------*/
-
-/* Private functions ---------------------------------------------------------*/
-
-/**
-  * @brief  Main program.
-  * @param  None
-  * @retval None
-  */
-void main(void)
+void main()
 {
-  /* Infinite loop */
-  while (1)
-  {
-  }
+	CLK_CONFIG_16MHZ_HSI();
+	GPIO_Init(GPIOE, GPIO_Pin_7, GPIO_Mode_Out_PP_Low_Fast);
+
+	TIM2_TimeBaseInit(TIM2_Prescaler_128, TIM2_CounterMode_Up, 62499); // 500ms
+	TIM2_ClearFlag(TIM2_FLAG_Update);
+	TIM2_ITConfig(TIM2_IT_Update, ENABLE);
+
+	enableInterrupts();
+	TIM2_Cmd(ENABLE);
+
+	while(1)
+	{
+
+	}
 }
 
-#ifdef  USE_FULL_ASSERT
+void CLK_CONFIG_16MHZ_HSI(void){
+	CLK_DeInit();
 
-/**
-  * @brief  Reports the name of the source file and the source line number
-  *   where the assert_param error has occurred.
-  * @param  file: pointer to the source file name
-  * @param  line: assert_param error line source number
-  * @retval None
-  */
-void assert_failed(uint8_t* file, uint32_t line)
-{ 
-  /* User can add his own implementation to report the file name and line number,
-     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+  /* High speed internal clock prescaler: 1 */
+  CLK_SYSCLKDivConfig(CLK_SYSCLKDiv_1);
 
-  /* Infinite loop */
-  while (1)
-  {
-  }
+  /* Select HSE as system clock source */
+  CLK_SYSCLKSourceSwitchCmd(ENABLE);
+  CLK_SYSCLKSourceConfig(CLK_SYSCLKSource_HSI);
+
+  while (CLK_GetSYSCLKSource() != CLK_SYSCLKSource_HSI)
+  {}
+
+  /* Enable TIM2 CLK */
+  CLK_PeripheralClockConfig(CLK_Peripheral_TIM2, ENABLE);
 }
-#endif
-
-/**
-  * @}
-  */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

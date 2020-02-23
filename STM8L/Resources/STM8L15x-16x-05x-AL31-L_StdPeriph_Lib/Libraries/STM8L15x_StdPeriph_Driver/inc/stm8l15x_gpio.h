@@ -161,6 +161,7 @@ void GPIO_WriteBit(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin, BitAction GPI
 void GPIO_SetBits(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin);
 void GPIO_ResetBits(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin);
 void GPIO_ToggleBits(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin);
+void GPIO_WriteReverse(GPIO_TypeDef* GPIOx, uint8_t GPIO_Pin);
 uint8_t GPIO_ReadInputData(GPIO_TypeDef* GPIOx);
 uint8_t GPIO_ReadOutputData(GPIO_TypeDef* GPIOx);
 BitStatus GPIO_ReadInputDataBit(GPIO_TypeDef* GPIOx, GPIO_Pin_TypeDef GPIO_Pin);

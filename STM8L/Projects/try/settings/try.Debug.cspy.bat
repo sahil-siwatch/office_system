@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Projects\try\settings\try.Debug.general.xcl" --backend -f "C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Projects\try\settings\try.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Sahil\Documents\office_work\office_system\STM8L\Projects\try\settings\try.Debug.general.xcl" --backend -f "C:\Users\Sahil\Documents\office_work\office_system\STM8L\Projects\try\settings\try.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Projects\try\settings\try.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Projects\try\settings\try.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Sahil\Documents\office_work\office_system\STM8L\Projects\try\settings\try.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Sahil\Documents\office_work\office_system\STM8L\Projects\try\settings\try.Debug.driver.xcl" 
 
 @echo off 
 :end
