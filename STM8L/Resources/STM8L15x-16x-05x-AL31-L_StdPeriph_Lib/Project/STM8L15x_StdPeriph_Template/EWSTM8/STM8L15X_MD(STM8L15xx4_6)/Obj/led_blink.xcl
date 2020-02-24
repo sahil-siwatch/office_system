@@ -1,14 +1,14 @@
-"C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_wfe.c"
+"C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\TASK_2\1.LED_Blink\led_blink.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\STM8L15X_MD(STM8L15xx4_6)\Obj\stm8l15x_wfe.pbi.dep
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\STM8L15X_MD(STM8L15xx4_6)\Obj\led_blink.pbi.dep
 -o
-stm8l15x_wfe.pbi
+led_blink.pbi
 -I
-C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Libraries\STM8L15x_StdPeriph_Driver\src
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\TASK_2\1.LED_Blink
 -I
 C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\..
 -I

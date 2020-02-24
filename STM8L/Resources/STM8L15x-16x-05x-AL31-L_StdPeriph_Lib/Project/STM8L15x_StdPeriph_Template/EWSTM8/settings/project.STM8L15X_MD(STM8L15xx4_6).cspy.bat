@@ -25,11 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-<<<<<<< HEAD
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).general.xcl" --backend -f "C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).driver.xcl" 
-=======
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).general.xcl" --backend -f "C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).driver.xcl" 
->>>>>>> 2cd9e854199093e3972eb0af145f5afebcddd605
 
 @echo off 
 goto end 
@@ -38,11 +34,7 @@ goto end
 
 @echo on 
 
-<<<<<<< HEAD
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Sahil\Documents\office_work\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).driver.xcl" 
-=======
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).driver.xcl" 
->>>>>>> 2cd9e854199093e3972eb0af145f5afebcddd605
 
 @echo off 
 :end

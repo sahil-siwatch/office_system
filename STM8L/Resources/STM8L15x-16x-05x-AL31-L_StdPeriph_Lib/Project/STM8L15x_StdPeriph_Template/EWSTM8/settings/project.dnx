@@ -11,53 +11,9 @@
         <LimitSize>0</LimitSize>
         <ByteLimit>50</ByteLimit>
     </Stack>
-    <DebugChecksum>
-<<<<<<< HEAD
-        <Checksum>3334796439</Checksum>
-=======
-        <Checksum>3283559235</Checksum>
->>>>>>> 2cd9e854199093e3972eb0af145f5afebcddd605
-    </DebugChecksum>
-    <CallStack>
-        <ShowArgs>0</ShowArgs>
-    </CallStack>
-    <Disassembly>
-        <MixedMode>1</MixedMode>
-    </Disassembly>
-<<<<<<< HEAD
-=======
-    <Log_file>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-        <Category>_ 0</Category>
-    </Log_file>
->>>>>>> 2cd9e854199093e3972eb0af145f5afebcddd605
-    <DataSample>
-        <LogEnabled>0</LogEnabled>
-        <GraphEnabled>0</GraphEnabled>
-        <ShowTimeLog>1</ShowTimeLog>
-    </DataSample>
-<<<<<<< HEAD
     <Breakpoints>
         <Count>0</Count>
     </Breakpoints>
-=======
->>>>>>> 2cd9e854199093e3972eb0af145f5afebcddd605
-    <TermIOLog>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-    </TermIOLog>
-    <LogFile>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-        <Category>_ 0</Category>
-    </LogFile>
-<<<<<<< HEAD
-=======
-    <Breakpoints>
-        <Count>0</Count>
-    </Breakpoints>
->>>>>>> 2cd9e854199093e3972eb0af145f5afebcddd605
     <Aliases>
         <Count>0</Count>
         <SuppressDialog>0</SuppressDialog>

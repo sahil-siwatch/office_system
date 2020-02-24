@@ -1,0 +1,4 @@
+led_blink.pbi: \
+  C:\Users\Sahil\ Siwatch\Documents\git_personal\office_system\STM8L\TASK_2\1.LED_Blink\led_blink.c \
+  C:\Users\Sahil\ Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
+  C:\Users\Sahil\ Siwatch\Documents\git_personal\office_system\STM8L\Resources\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib\Project\STM8L15x_StdPeriph_Template\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h
