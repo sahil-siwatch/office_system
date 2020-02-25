@@ -5048,7 +5048,10 @@
     <group>
         <name>User</name>
         <file>
-            <name>$PROJ_DIR$\..\stm8l15x_it.c</name>
+            <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\..\..\..\Desktop\USART.c</name>
         </file>
     </group>
 </project>

@@ -1,4 +1,4 @@
-#include "stm8l15x.h"
+//#include "stm8l15x.h"
 #include "stm8l15x_it.h"
 
 void CLK_CONFIG_16MHZ_HSI(void);
