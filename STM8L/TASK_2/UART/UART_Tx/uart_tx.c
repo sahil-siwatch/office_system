@@ -1,20 +1,27 @@
 // USART transmit
 #include "stm8l15x.h"
+#include <stdio.h>
+#include <math.h>
 
 void serial_init(void);
 void CLK_CONFIG_16MHZ_HSI(void);
 void Delay(long);
-void my_func(char*);
-
-char* name = "sahil";
+void tx_string(char*);
 
 void main(){
     CLK_CONFIG_16MHZ_HSI();
     serial_init();
+    int str_len;
+    uint16_t i = 256;
+    char str[80];
+
+   str_len = sprintf(str, "The value is %d\n", i);
     while(1)
     {
-       my_func(name);
+      str_len = sprintf(str, "The value is %d\n", i);
+       tx_string(str);
        Delay(500000);
+       i++;
     }
 }
 
@@ -51,12 +58,12 @@ void Delay(long nCount)
     nCount--;
   }
 }
-void my_func(char* name){
-  uint8_t i = 0;
-  while(i != '\0')
+void tx_string(char* name){
+  
+  while(*name)
   {
-    USART_SendData8(USART1, i);
+    USART_SendData8(USART1, *name);
     while (USART_GetFlagStatus(USART1, USART_FLAG_TC) == RESET);
-    i++;
+    name++;
   }
 }
