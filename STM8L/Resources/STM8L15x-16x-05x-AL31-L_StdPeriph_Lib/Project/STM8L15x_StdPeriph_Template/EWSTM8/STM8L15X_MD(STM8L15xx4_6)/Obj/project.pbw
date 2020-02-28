@@ -85830,114 +85830,44 @@
     "scope": null
   },
   {
-    "ID": "c:PWM3.c@33@macro@TIM1_PERIOD",
-    "What": "MacroDef",
+    "ID": "c:@state",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "TIM1_PERIOD",
+    "display": "state",
     "location": {
-      "column": "9",
+      "column": "6",
       "line": "3",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
+      "path": "C:\\Users\\Sahil Siwatch\\Documents\\git_personal\\office_system\\STM8L\\TASK_2\\Low Power\\Low_Power.c"
     },
-    "name": "TIM1_PERIOD",
+    "name": "state",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:PWM3.c@71@macro@TIM1_PRESCALER",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIM1_PRESCALER",
+    "ID": "c:@F@GPIO_setup",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void GPIO_setup(void)",
     "location": {
-      "column": "9",
+      "column": "6",
       "line": "4",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
+      "path": "C:\\Users\\Sahil Siwatch\\Documents\\git_personal\\office_system\\STM8L\\TASK_2\\Low Power\\Low_Power.c"
     },
-    "name": "TIM1_PRESCALER",
+    "name": "GPIO_setup",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:PWM3.c@110@macro@TIM1_REPTETION_COUNTER",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIM1_REPTETION_COUNTER",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
-    },
-    "name": "TIM1_REPTETION_COUNTER",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@CCR1_Val",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "CCR1_Val",
-    "location": {
-      "column": "10",
-      "line": "8",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
-    },
-    "name": "CCR1_Val",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@Capture",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "Capture",
-    "location": {
-      "column": "10",
-      "line": "10",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
-    },
-    "name": "Capture",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@CLK_Config",
+    "ID": "c:@F@clock_setup",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void CLK_Config(void)",
+    "display": "void clock_setup(void)",
     "location": {
       "column": "6",
-      "line": "13",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
+      "line": "6",
+      "path": "C:\\Users\\Sahil Siwatch\\Documents\\git_personal\\office_system\\STM8L\\TASK_2\\Low Power\\Low_Power.c"
     },
-    "name": "CLK_Config",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_Config",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void GPIO_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "14",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
-    },
-    "name": "GPIO_Config",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM1_Config",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIM1_Config(void)",
-    "location": {
-      "column": "6",
-      "line": "15",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
-    },
-    "name": "TIM1_Config",
+    "name": "clock_setup",
     "origin": "project_file",
     "scope": null
   },
@@ -85948,24 +85878,10 @@
     "display": "void Delay(long)",
     "location": {
       "column": "6",
-      "line": "16",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
+      "line": "7",
+      "path": "C:\\Users\\Sahil Siwatch\\Documents\\git_personal\\office_system\\STM8L\\TASK_2\\Low Power\\Low_Power.c"
     },
     "name": "Delay",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@percentage",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int percentage(int)",
-    "location": {
-      "column": "5",
-      "line": "17",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
-    },
-    "name": "percentage",
     "origin": "project_file",
     "scope": null
   },
@@ -85976,94 +85892,24 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "19",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
+      "line": "8",
+      "path": "C:\\Users\\Sahil Siwatch\\Documents\\git_personal\\office_system\\STM8L\\TASK_2\\Low Power\\Low_Power.c"
     },
     "name": "main",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:PWM3.c@400@F@main@intensity",
+    "ID": "c:Low_Power.c@167@F@main@i",
     "What": "Variable",
     "defdec": "Def",
-    "display": "intensity",
+    "display": "i",
     "location": {
-      "column": "7",
-      "line": "24",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
+      "column": "22",
+      "line": "10",
+      "path": "C:\\Users\\Sahil Siwatch\\Documents\\git_personal\\office_system\\STM8L\\TASK_2\\Low Power\\Low_Power.c"
     },
-    "name": "intensity",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@percentage",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int percentage(int)",
-    "location": {
-      "column": "5",
-      "line": "37",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
-    },
-    "name": "percentage",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@CLK_Config",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void CLK_Config(void)",
-    "location": {
-      "column": "13",
-      "line": "42",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
-    },
-    "name": "CLK_Config",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_Config",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_Config(void)",
-    "location": {
-      "column": "13",
-      "line": "48",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
-    },
-    "name": "GPIO_Config",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIM1_Config",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void TIM1_Config(void)",
-    "location": {
-      "column": "13",
-      "line": "55",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
-    },
-    "name": "TIM1_Config",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:PWM3.c@934@F@TIM1_Config@ccrValue",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "ccrValue",
-    "location": {
-      "column": "7",
-      "line": "56",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
-    },
-    "name": "ccrValue",
+    "name": "i",
     "origin": "project_file",
     "scope": null
   },
@@ -86074,10 +85920,38 @@
     "display": "void Delay(long)",
     "location": {
       "column": "6",
-      "line": "73",
-      "path": "C:\\Users\\Sahil Siwatch\\Desktop\\PWM3.c"
+      "line": "35",
+      "path": "C:\\Users\\Sahil Siwatch\\Documents\\git_personal\\office_system\\STM8L\\TASK_2\\Low Power\\Low_Power.c"
     },
     "name": "Delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_setup",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_setup(void)",
+    "location": {
+      "column": "6",
+      "line": "42",
+      "path": "C:\\Users\\Sahil Siwatch\\Documents\\git_personal\\office_system\\STM8L\\TASK_2\\Low Power\\Low_Power.c"
+    },
+    "name": "GPIO_setup",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@clock_setup",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void clock_setup(void)",
+    "location": {
+      "column": "6",
+      "line": "59",
+      "path": "C:\\Users\\Sahil Siwatch\\Documents\\git_personal\\office_system\\STM8L\\TASK_2\\Low Power\\Low_Power.c"
+    },
+    "name": "clock_setup",
     "origin": "project_file",
     "scope": null
   }

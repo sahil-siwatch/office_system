@@ -12,7 +12,7 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <DebugChecksum>
-        <Checksum>1049967158</Checksum>
+        <Checksum>2113800063</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -25,6 +25,10 @@
         <GraphEnabled>0</GraphEnabled>
         <ShowTimeLog>1</ShowTimeLog>
     </DataSample>
+    <Breakpoints>
+        <Bp0>_ "STD_CODE" "{C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\TASK_2\UART\UART_Tx\uart_tx.c}.63.3" 0 0 0 0 "" 0 ""</Bp0>
+        <Count>1</Count>
+    </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -34,10 +38,6 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
-    <Breakpoints>
-        <Bp0>_ "STD_CODE" "{C:\Users\Sahil Siwatch\Documents\git_personal\office_system\STM8L\TASK_2\UART\UART_Tx\uart_tx.c}.63.3" 0 0 0 0 "" 0 ""</Bp0>
-        <Count>1</Count>
-    </Breakpoints>
     <Aliases>
         <Count>0</Count>
         <SuppressDialog>0</SuppressDialog>
