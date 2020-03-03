@@ -6547,7 +6547,7 @@
     <group>
         <name>User</name>
         <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\TASK_2\Low Power\Low_Power.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\TASK_2\1.LED_Blink\led_blink.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h</name>
