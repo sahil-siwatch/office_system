@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Sahil Siwatch\Desktop\firmware\firmware\settings\glove_indication.Debug.general.xcl" --backend -f "C:\Users\Sahil Siwatch\Desktop\firmware\firmware\settings\glove_indication.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Sahil Siwatch\Documents\git_personal\office_system\firmware\firmware\settings\glove_indication.Debug.general.xcl" --backend -f "C:\Users\Sahil Siwatch\Documents\git_personal\office_system\firmware\firmware\settings\glove_indication.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Sahil Siwatch\Desktop\firmware\firmware\settings\glove_indication.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Sahil Siwatch\Desktop\firmware\firmware\settings\glove_indication.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Sahil Siwatch\Documents\git_personal\office_system\firmware\firmware\settings\glove_indication.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Sahil Siwatch\Documents\git_personal\office_system\firmware\firmware\settings\glove_indication.Debug.driver.xcl" 
 
 @echo off 
 :end
