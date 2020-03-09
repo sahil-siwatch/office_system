@@ -51266,7 +51266,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@879@macro@CONTACT1_PIN",
+    "ID": "c:config.h@878@macro@CONTACT1_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CONTACT1_PIN",
@@ -51280,7 +51280,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@923@macro@CONTACT1_EXTI_PIN",
+    "ID": "c:config.h@922@macro@CONTACT1_EXTI_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CONTACT1_EXTI_PIN",
@@ -51294,7 +51294,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@967@macro@CONTACT1_PORT",
+    "ID": "c:config.h@966@macro@CONTACT1_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CONTACT1_PORT",
@@ -51308,7 +51308,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1008@macro@CONTACT2_PIN",
+    "ID": "c:config.h@1007@macro@CONTACT2_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CONTACT2_PIN",
@@ -51322,7 +51322,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1052@macro@CONTACT2_EXTI_PIN",
+    "ID": "c:config.h@1051@macro@CONTACT2_EXTI_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CONTACT2_EXTI_PIN",
@@ -51336,7 +51336,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1096@macro@CONTACT2_PORT",
+    "ID": "c:config.h@1095@macro@CONTACT2_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CONTACT2_PORT",
@@ -51350,7 +51350,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1137@macro@CHG_STAT_PIN",
+    "ID": "c:config.h@1136@macro@CHG_STAT_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CHG_STAT_PIN",
@@ -51364,7 +51364,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1181@macro@CHG_STAT_PORT",
+    "ID": "c:config.h@1180@macro@CHG_STAT_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CHG_STAT_PORT",
@@ -51378,7 +51378,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1222@macro@BAT_STAT_PIN",
+    "ID": "c:config.h@1221@macro@BAT_STAT_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BAT_STAT_PIN",
@@ -51392,7 +51392,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1266@macro@BAT_STAT_PORT",
+    "ID": "c:config.h@1265@macro@BAT_STAT_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BAT_STAT_PORT",
@@ -51406,7 +51406,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1305@macro@BAT_STAT_CHANNEL",
+    "ID": "c:config.h@1304@macro@BAT_STAT_CHANNEL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BAT_STAT_CHANNEL",
@@ -51420,7 +51420,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1355@macro@PWM_PIN",
+    "ID": "c:config.h@1354@macro@PWM_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PWM_PIN",
@@ -51434,7 +51434,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1399@macro@PWM_PORT",
+    "ID": "c:config.h@1398@macro@PWM_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PWM_PORT",
@@ -51448,7 +51448,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1440@macro@LED_PIN",
+    "ID": "c:config.h@1439@macro@LED_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_PIN",
@@ -51462,7 +51462,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1484@macro@LED_PORT",
+    "ID": "c:config.h@1483@macro@LED_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_PORT",
@@ -51476,7 +51476,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1525@macro@ADC_RESOLUTION",
+    "ID": "c:config.h@1524@macro@ADC_RESOLUTION",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ADC_RESOLUTION",
@@ -51490,7 +51490,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1583@macro@DISCHARGED_BATTERY_VOLTAGE",
+    "ID": "c:config.h@1582@macro@DISCHARGED_BATTERY_VOLTAGE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DISCHARGED_BATTERY_VOLTAGE",
@@ -51504,7 +51504,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1697@macro@FULLCHARGED_BATTERY_VOLTAGE",
+    "ID": "c:config.h@1696@macro@FULLCHARGED_BATTERY_VOLTAGE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "FULLCHARGED_BATTERY_VOLTAGE",
@@ -51518,7 +51518,7 @@
     "scope": null
   },
   {
-    "ID": "c:config.h@1740@macro@COUNT",
+    "ID": "c:config.h@1739@macro@COUNT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "COUNT",

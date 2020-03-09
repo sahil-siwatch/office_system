@@ -1,84 +1,90 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.11.1.207 for STM8                     05/Mar/2020  17:58:59
+# IAR ELF Linker V3.11.1.207 for STM8                     07/Mar/2020  18:27:23
 # Copyright 2010-2019 IAR Systems AB.
 #
 #    Output file  =  
 #        C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Exe\glove_indication.out
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Exe\glove_indication.out
 #    Map file     =  
 #        C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\List\glove_indication.map
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\List\glove_indication.map
 #    Command line =  
-#        -f C:\Users\SAHILS~1\AppData\Local\Temp\EW3AC3.tmp ("C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\adc.o" "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\clock.o" "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\gpio.o" "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\interrupt.o"
-#        "C:\Users\Sahil Siwatch\Desktop\firmware\firmware\Debug\Obj\main.o"
-#        "C:\Users\Sahil Siwatch\Desktop\firmware\firmware\Debug\Obj\pwm.o"
+#        -f C:\Users\SAHILS~1\AppData\Local\Temp\EWF520.tmp ("C:\Users\Sahil
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\adc.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_adc.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\clock.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_aes.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\gpio.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_beep.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\interrupt.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_clk.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\main.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_comp.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\pwm.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_dac.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_adc.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_dma.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_aes.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_exti.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_beep.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_flash.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_clk.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_gpio.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_comp.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_i2c.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_dac.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_irtim.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_dma.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_itc.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_exti.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_iwdg.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_flash.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_lcd.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_gpio.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_pwr.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_i2c.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_rst.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_irtim.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_rtc.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_itc.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_spi.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_iwdg.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_syscfg.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_lcd.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_tim1.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_pwr.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_tim2.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_rst.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_tim3.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_rtc.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_tim4.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_spi.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_tim5.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_syscfg.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_usart.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_tim1.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_wfe.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_tim2.o"
 #        "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Obj\stm8l15x_wwdg.o"
-#        "C:\Users\Sahil Siwatch\Desktop\firmware\firmware\Debug\Obj\timer.o"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_tim3.o"
+#        "C:\Users\Sahil
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_tim4.o"
+#        "C:\Users\Sahil
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_tim5.o"
+#        "C:\Users\Sahil
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_usart.o"
+#        "C:\Users\Sahil
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_wfe.o"
+#        "C:\Users\Sahil
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\stm8l15x_wwdg.o"
+#        "C:\Users\Sahil
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj\timer.o"
 #        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --no_out_extension -o "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\Exe\glove_indication.out"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Exe\glove_indication.out"
 #        --map "C:\Users\Sahil
-#        Siwatch\Desktop\firmware\firmware\Debug\List\glove_indication.map"
+#        Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\List\glove_indication.map"
 #        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.3\stm8\config\lnkstm8l051f3.icf" --config_def _CSTACK_SIZE=0x100
 #        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib)
@@ -304,7 +310,7 @@ Zero (__iar_zero_init2)
 
     Module                 ro code  ro data  rw data
     ------                 -------  -------  -------
-C:\Users\Sahil Siwatch\Desktop\firmware\firmware\Debug\Obj: [1]
+C:\Users\Sahil Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj: [1]
     adc.o                      213
     clock.o                    143
     gpio.o                     184
@@ -541,7 +547,7 @@ uninit_adc              0x008f9d    0xe  Code  Gb  adc.o [1]
 uninit_pwm              0x008e35   0x1d  Code  Gb  pwm.o [1]
 
 
-[1] = C:\Users\Sahil Siwatch\Desktop\firmware\firmware\Debug\Obj
+[1] = C:\Users\Sahil Siwatch\Documents\git_personal\office_system\firmware\firmware\Debug\Obj
 [2] = command line
 [3] = dbgstm8smd.a
 [4] = dlstm8smn.a

@@ -17,7 +17,7 @@
 #define DEBOUNCING_DELAY        500                                            //Debouncing Delay for button press
 
 #define ON_TIME                 20                                            //ON Time for LED Blink
-#define OFF_TIME                300                                             //OFF Time for LED Blink
+#define OFF_TIME                300                                            //OFF Time for LED Blink
 
 
 /******************* Do Not Change Below This *******************/
